@@ -1,7 +1,5 @@
 # my-portfolio
 
-# my-portfolio
-
 ##Assignment -01
 
 [GoalsDocs](https://docs.google.com/document/d/135xHh-nQbcCANbTk751QDej47PYHkYPT/edit?usp=sharing&ouid=105509897639515001372&rtpof=true&sd=true)
