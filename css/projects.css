@@ -1,0 +1,9 @@
+.project-gallery{
+
+}
+#project01{
+    background-image: url("../assets/img/projects/Adobe Express - file.png");
+    width: 305px;
+    height: 175px;
+    background-repeat: no-repeat;
+}
