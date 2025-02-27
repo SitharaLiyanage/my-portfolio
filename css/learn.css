@@ -1,0 +1,31 @@
+#main{
+    width: 100vw;
+    height: 100px;
+    background: darkslategrey;
+    position: absolute;
+}
+
+#a1{
+    background: black;
+    position: absolute;
+    height: 100px;
+    width: 25%;
+}
+#a2{
+    background: green;
+    position: absolute;
+    height: 100px;
+    width: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#a3{
+    background:blue;
+    position: absolute;
+    height: 100px;
+    width: 25%;
+    top: 0;
+    right: 0;
+}

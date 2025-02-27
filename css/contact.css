@@ -23,7 +23,15 @@ input{
 p{
     color: white;
 }
-
-footer div p{
+footer{
+    position: absolute;
+}
+footer div {
+    font-family: "Bebas Neue", serif;
     color: white;
+}
+#copyrights{
+    position: absolute;
+    inset: 0;
+    margin: auto;
 }
