@@ -23,15 +23,22 @@ input{
 p{
     color: white;
 }
+
+
 footer{
     position: absolute;
+    height: 100px;
+    width: 100vw;
+    background: rebeccapurple;
 }
 footer div {
     font-family: "Bebas Neue", serif;
     color: white;
 }
-#copyrights{
+#socials{
     position: absolute;
-    inset: 0;
-    margin: auto;
+    height:100px;
+    width: 25%;
+    right: 0;
+    background: white;
 }
