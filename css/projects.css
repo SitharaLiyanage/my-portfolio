@@ -1,45 +1,25 @@
-.project-gallery{
 
+div#project01, div#project02, div#project03, div#project04, div#project05, div#project06{
+    width: 305px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #project01{
     background-image: url("../assets/img/projects/sample1.png");
-    width: 305px;
-    height: 175px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 #project02{
     background-image: url("../assets/img/projects/sample2.jpeg");
-    width: 305px;
-    height: 175px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 #project03{
     background-image: url("../assets/img/projects/sample3.jpg");
-    width: 305px;
-    height: 175px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 #project04{
     background-image: url("../assets/img/projects/sample4.jpg");
-    width: 305px;
-    height: 175px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 #project05{
     background-image: url("../assets/img/projects/sample5.webp");
-    width: 305px;
-    height: 175px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 #project06{
     background-image: url("../assets/img/projects/sample6.jpeg");
-    width: 305px;
-    height: 175px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
