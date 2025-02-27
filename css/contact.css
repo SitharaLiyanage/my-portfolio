@@ -1,0 +1,22 @@
+h2{
+    font-family: "Bebas Neue", serif;
+    color: white;
+    font-size: 80px;
+}
+body{
+    background: black;
+}
+
+h3{
+    font-family: "Bebas Neue", serif;
+    color: white;
+    font-size: 30px;
+
+
+}
+input{
+    font-family: "Bebas Neue", serif;
+    background: black;
+    color: white;
+    border: 0;
+}
