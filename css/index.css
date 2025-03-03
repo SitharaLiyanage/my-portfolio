@@ -29,9 +29,9 @@ nav a::after {
     content: "■"; /* Bullet icon */
     position: absolute;
     left: 50%;
-    bottom: -5px; /* Adjust position */
+    bottom: -2px; /* Adjust position */
     transform: translateX(-50%);
-    font-size: 20px;
+    font-size: 15px;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
 }
