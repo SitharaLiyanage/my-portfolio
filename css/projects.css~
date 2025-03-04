@@ -5,13 +5,12 @@
 /*    background-size: cover;*/
 /*    background-repeat: no-repeat;*/
 /*}*/
-main>section>div{
+div{
     width: 305px;
     height: 175px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 /*title*/
 h2{
    font-family: "Bebas Neue", serif;
