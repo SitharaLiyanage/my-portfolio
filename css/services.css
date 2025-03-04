@@ -65,3 +65,10 @@ main p{
 #design:hover {
     background: url('../assets/img/backgrounds/designBackground.png') center/cover no-repeat;
 }
+#development:hover {
+    background: url('../assets/img/backgrounds/development.jpg') center/cover no-repeat;
+
+}
+#full-package:hover{
+    background: url("../assets/img/backgrounds/full.jpg")center/cover no-repeat;
+}
