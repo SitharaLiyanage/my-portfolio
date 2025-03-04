@@ -1,11 +1,52 @@
 body{
     background:#D3D3D3;
 }
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+main section{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+main section div{
+    margin-left: 15px;
+    height: 380px;
+    width: 300px;
+    /*border: 1px solid black;*/
+
+}
+main section div:hover{
+    /*color: white;*/
+    transform: scale(1.05);
+}
+div {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+main h2{
+    margin-left: 80px;
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+
+}
+main h3{
+    font-family: "Bebas Neue", serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+main p{
     font-family: "Bebas Neue", serif;
     font-size: 20px;
-    width: fit-content;
-    margin: 0 auto;
-    text-align: center;
-
 }
