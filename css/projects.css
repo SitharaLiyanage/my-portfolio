@@ -1,19 +1,13 @@
-body{
-    background: #2C2C2C;
-}
-.sample {
-    width: 100vw;
-    height: 100vh;
-    border: 5px solid black;
-    display: grid;
-    grid-template-columns: repeat(4, 5fr);
-    grid-template-rows: repeat(3, 5fr);
-}
+
 div#project01, div#project02, div#project03, div#project04, div#project05, div#project06{
     width: 305px;
     height: 175px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+/*title*/
+h2{
+   font-family: "Bebas Neue", serif;
 }
 #project01{
     background-image: url("../assets/img/projects/sample1.png");
