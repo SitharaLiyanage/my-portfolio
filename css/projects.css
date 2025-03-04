@@ -5,7 +5,9 @@
 /*    background-size: cover;*/
 /*    background-repeat: no-repeat;*/
 /*}*/
-
+body{
+    background: #2C2C2C;
+}
 main section{
     position: relative;
     margin-left: 50px;
@@ -25,8 +27,11 @@ main>section>div{
 }
 
 /*title*/
-h2{
+header h1{
    font-family: "Bebas Neue", serif;
+    color: white;
+    font-size: 36px;
+    text-align: center;
 }
 #project01{
     background-image: url("../assets/img/projects/sample1.png");
