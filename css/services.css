@@ -46,7 +46,22 @@ main h3{
     font-size: 28px;
     letter-spacing: 1px;
 }
+
 main p{
-    font-family: "Bebas Neue", serif;
+    font-family:Roboto, sans-serif;
     font-size: 20px;
+}
+
+.dots::after {
+    content: "";
+    font-size: 40px;
+    display: inline-block;
+    animation: dots 1.5s infinite steps(1);
+}
+
+@keyframes dots {
+    0% { content: "."; }
+    33% { content: ".."; }
+    66% { content: "..."; }
+    100% { content: "."; }
 }
