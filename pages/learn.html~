@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sithara</title>
+    <link rel="stylesheet" href="../css/learn.css">
+</head>
+<body>
+<div class="container">
+    <div class="form-section">
+        <h2>LET'S START A PROJECT TOGETHER</h2>
+        <form>
+            <label>WHAT'S YOUR NAME?</label>
+            <input type="text" value="SITHARA LIYANAGE" disabled>
+
+            <label>WHAT'S YOUR EMAIL?</label>
+            <input type="email" value="SITHARALIYANAGE@GMAIL.COM" disabled>
+
+            <label>WHAT'S THE NAME OF YOUR ORGANIZATION?</label>
+            <input type="text" value="INNOVEB" disabled>
+
+            <label>YOUR MESSAGE..</label>
+            <textarea placeholder="HELLO SITHARA, CAN YOU HELP ME WITH ..."></textarea>
+
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+    <div class="contact-section">
+        <img src="../assets/img/contactPhoto.jpg" alt="Sithara Liyanage">
+        <div class="contact-details">
+            <h3>CONTACT DETAILS</h3>
+            <p>SITHARA LIYANAGE</p>
+            <p>+94785676844</p>
+            <p>DEV.SITHARALIYANAGE@GMAIL.COM</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>LOCAL TIME: 16:49 GMT +5.30</p>
+    <p>COPYRIGHTS &copy; 2025 BY SITHARA LIYANAGE | ALL RIGHTS RESERVED</p>
+    <div class="socials">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        <a href="#"><img src="email-icon.png" alt="Email"></a>
+        <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+    </div>
+</footer>
+</body>
+</html>
