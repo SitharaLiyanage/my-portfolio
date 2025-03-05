@@ -41,7 +41,7 @@ button {
     cursor: pointer;
 }
 .contact-section {
-
+    margin-top: 50px;
     width: 45%;
     text-align: center;
 }
@@ -50,7 +50,7 @@ img {
     width: 270px;
     height: 350px;
 
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .contact-details {
     margin-top: 15px;
