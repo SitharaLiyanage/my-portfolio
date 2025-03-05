@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Bebas Neue", serif;
     background-color: black;
+    letter-spacing: 1px;
     color: white;
     text-align: center;
 }
@@ -15,7 +16,7 @@ body {
     text-align: left;
 }
 h2 {
-    font-size: 28px;
+    font-size: 60px;
 }
 label {
     display: block;
@@ -40,12 +41,15 @@ button {
     cursor: pointer;
 }
 .contact-section {
+
     width: 45%;
     text-align: center;
 }
 img {
-    width: 200px;
-    height: auto;
+    margin-top: 15px;
+    width: 270px;
+    height: 350px;
+
     border-radius: 10px;
 }
 .contact-details {
