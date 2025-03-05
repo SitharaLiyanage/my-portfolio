@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: Arial, sans-serif;
     background-color: black;
     color: white;
     text-align: center;
-    letter-spacing: 1px;
 }
 .container {
     display: flex;
@@ -16,7 +15,7 @@ body {
     text-align: left;
 }
 h2 {
-    font-size: 50px;
+    font-size: 28px;
 }
 label {
     display: block;
@@ -60,53 +59,4 @@ footer {
 .socials img {
     width: 30px;
     margin: 0 5px;
-}
-
-.final{
-    position: absolute;
-    height: 100px;
-    width: 100vw;
-    background: rebeccapurple;
-    font-family: "Bebas Neue", serif;
-    color: white;
-}
-
-#time{
-    position: absolute;
-    background: black;
-    bottom: 0;
-    height: 50px;
-    width: 25%;
-}
-#copyrights{
-    position: absolute;
-    background: black;
-    height: 50px;
-    width: 25%;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
-#socials{
-    position: absolute;
-    background: black;
-    height: 50px;
-    width: 25%;
-    top: 0;
-    right: 0;
-}
-.final div:last-child p{
-    color: red;
-
-    right: 0;
-    left: 0;
-    margin: auto;
-    height: 30px;
-    width: 25%;
-    position: absolute;
-}
-section div img{
-    padding-top: -1000px;
-    padding-left: 1000px;
 }
