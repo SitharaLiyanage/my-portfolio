@@ -49,6 +49,18 @@ button:hover {
     width: 45%;
     text-align: left;
     margin-left: 400px;
+
+}
+.contact-section a{
+    font-family: "Bebas Neue", serif;
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 5px 0;
+}
+contact-section a:hover {
+    text-decoration: underline;
+    transform-style: preserve-3d;
 }
 img {
     margin-top: 15px;
@@ -60,9 +72,10 @@ img {
 }
 .contact-details {
     margin-top: 15px;
+
 }
 footer {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     padding: 20px;
     background: #111;
 }
