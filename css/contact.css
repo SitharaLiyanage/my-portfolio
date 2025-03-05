@@ -1,7 +1,9 @@
 h2{
+    margin-left: 100px;
     font-family: "Bebas Neue", serif;
     color: white;
-    font-size: 80px;
+    font-size: 60px;
+    letter-spacing: 2px;
 }
 body{
     background: black;
@@ -65,4 +67,8 @@ input{
     height: 30px;
     width: 25%;
     position: absolute;
+}
+section div img{
+    padding-top: -1000px;
+    padding-left: 1000px;
 }

@@ -1,31 +1,62 @@
-#main{
-    width: 100vw;
-    height: 100px;
-    background: darkslategrey;
-    position: absolute;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
-
-#a1{
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.form-section {
+    width: 45%;
+    text-align: left;
+}
+h2 {
+    font-size: 28px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
     background: black;
-    position: absolute;
-    height: 100px;
-    width: 25%;
+    color: white;
+    border: 1px solid gray;
 }
-#a2{
-    background: green;
-    position: absolute;
-    height: 100px;
-    width: 50%;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
-#a3{
-    background:blue;
-    position: absolute;
-    height: 100px;
-    width: 25%;
-    top: 0;
-    right: 0;
+.contact-section {
+    width: 45%;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.contact-details {
+    margin-top: 15px;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: #111;
+}
+.socials img {
+    width: 30px;
+    margin: 0 5px;
 }
