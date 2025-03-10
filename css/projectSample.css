@@ -1,0 +1,49 @@
+body{
+    background: #2C2C2C;
+}
+main section{
+    position: relative;
+    margin-left: 50px;
+    width: 1400px;
+    height: 600px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+main>section>div{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 305px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*title*/
+header h1{
+    font-family: "Bebas Neue", serif;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+#project01{
+    background-image: url("../assets/img/projects/sample1.png");
+}
+#project02{
+    background-image: url("../assets/img/projects/sample2.jpeg");
+}
+#project03{
+    background-image: url("../assets/img/projects/sample3.jpg");
+}
+#project04{
+    background-image: url("../assets/img/projects/sample4.jpg");
+}
+#project05{
+    background-image: url("../assets/img/projects/sample5.webp");
+}
+#project06{
+    background-image: url("../assets/img/projects/sample6.jpeg");
+}
