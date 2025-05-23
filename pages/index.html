@@ -1,45 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Sithara Liyanage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sithara Liyanage - Portfolio</title>
+    <meta name="description" content="Sithara Liyanage - Freelance Designer & Developer Portfolio" />
+    <meta name="author" content="Sithara Liyanage" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grechen+Fuemen&family=Mea+Culpa&family=Bayon&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="../css/normalize/normalize.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grechen+Fuemen&family=Mea+Culpa&family=Bayon&family=Roboto:wght@300;400;500&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
 </head>
-<body>
-<!-- Preloader -->
-<!--<div id="preloader">Hi</div>-->
 
-<header>
-    <a href="index.html">Code By Sithara</a>
+<body>
+<header id="header">
+    <a href="#home" class="logo">Code By Sithara</a>
     <nav>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
+        <a href="#about" data-section="about">About</a>
+        <a href="#projects" data-section="projects">Projects</a>
+        <a href="#services" data-section="services">Services</a>
+        <a href="#contact" data-section="contact">Contact</a>
     </nav>
 </header>
 
 <main>
-    <section>
-<!--        <h1>Hi, It's Me</h1>-->
-<!--        <h2>Sithara Liyanage</h2>-->
-<!--        <h3>Freelance Designer & Developer</h3>-->
+    <!-- HOME Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="floating-particles"></div>
+        </div>
 
-        <a href="location******" download>
-            <button>Download CV</button>
-        </a>
-        <a href="mailto:dev.sitharaliyanage@gmail.com">
-            <button>Send Mail</button>
-        </a>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to My Portfolio</h1>
+            <h2 class="hero-subtitle">I am Sithara Liyanage</h2>
+            <h3 class="hero-description">Freelance Designer & Developer</h3>
+
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="downloadCV()">Download CV</button>
+                <button class="btn btn-secondary" onclick="sendMail()">Send Mail</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-profile">
+                <div class="profile-image">
+                    <div class="profile-placeholder">SL</div>
+                </div>
+                <div class="profile-content">
+                    <h2>ABOUT <span class="highlight">ME</span></h2>
+                    <h3>I'm Sithara Liyanage,</h3>
+                    <p>A passionate software engineering student eager to master Java, HTML, and more.</p>
+                    <p>Let's connect and embark on this journey together!</p>
+                </div>
+            </div>
+
+            <div class="education-section">
+                <h2>EDUCATION</h2>
+                <div class="education-logos">
+                    <div class="logo-placeholder">LOGO</div>
+                    <div class="logo-placeholder">LOGO</div>
+                    <div class="logo-placeholder">LOGO</div>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h2>TECHNICAL SKILLS</h2>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-percentage">86%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="86"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">74%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="74"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="professional-skills">
+                <h2>PROFESSIONAL SKILLS</h2>
+                <div class="skill-circles">
+                    <div class="circle-skill">
+                        <div class="circle" data-percentage="82">
+                            <span class="percentage">82%</span>
+                        </div>
+                        <p>Communication</p>
+                    </div>
+                    <div class="circle-skill">
+                        <div class="circle" data-percentage="79">
+                            <span class="percentage">79%</span>
+                        </div>
+                        <p>Continuous Learning</p>
+                    </div>
+                    <div class="circle-skill">
+                        <div class="circle" data-percentage="75">
+                            <span class="percentage">75%</span>
+                        </div>
+                        <p>Teamwork</p>
+                    </div>
+                    <div class="circle-skill">
+                        <div class="circle" data-percentage="81">
+                            <span class="percentage">81%</span>
+                        </div>
+                        <p>Problem Solving</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS Section -->
+    <section id="projects" class="projects-section">
+        <header class="projects-header">
+            <h1>PROJECTS</h1>
+            <div class="project-categories">
+                <button class="category-btn active" data-category="design">DESIGN</button>
+                <button class="category-btn" data-category="development">DEVELOPMENT</button>
+                <button class="category-btn" data-category="assignments">ASSIGNMENTS</button>
+            </div>
+        </header>
+
+        <div class="project-gallery">
+            <div class="project-item design" data-category="design">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>UI/UX Design</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item design" data-category="design">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>Brand Identity</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item design" data-category="design">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>Mobile App Design</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item development" data-category="development" style="display: none;">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>React Web App</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item development" data-category="development" style="display: none;">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>E-commerce Platform</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item development" data-category="development" style="display: none;">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>Mobile Application</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item assignments" data-category="assignments" style="display: none;">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>Java Assignment</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item assignments" data-category="assignments" style="display: none;">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>Web Development</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+            <div class="project-item assignments" data-category="assignments" style="display: none;">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop')"></div>
+                <div class="project-overlay">
+                    <h3>Database Project</h3>
+                    <button class="btn btn-small">View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES Section -->
+    <section id="services" class="services-section">
+        <header>
+            <h1>SERVICES</h1>
+            <h2>I CAN HELP YOU WITH <span class="dots"></span></h2>
+        </header>
+
+        <div class="service-list">
+            <div class="service" id="design-service">
+                <h3>DESIGN</h3>
+                <p>With a solid track record in designing websites and apps, I deliver strong and user-friendly digital designs. Solid company branding is the foundation of any successful website.</p>
+            </div>
+            <div class="service" id="development-service">
+                <h3>DEVELOPMENT</h3>
+                <p>I build scalable websites from scratch that fit seamlessly with design. My focus is on micro animations, transitions, and interaction. Modern technologies and best practices.</p>
+            </div>
+            <div class="service" id="full-package-service">
+                <h3>THE FULL PACKAGE</h3>
+                <p>A complete website from concept to implementation, that's what makes me stand out. My great sense for design and my development skills enable me to create kick-ass projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="form-section">
+                <h2>LET'S START A <br /> PROJECT TOGETHER</h2>
+                <form id="contact-form">
+                    <label>WHAT'S YOUR NAME?</label>
+                    <input type="text" name="name" required />
+
+                    <label>WHAT'S YOUR EMAIL?</label>
+                    <input type="email" name="email" required />
+
+                    <label>WHAT'S THE NAME OF YOUR ORGANIZATION?</label>
+                    <input type="text" name="organization" />
+
+                    <label>YOUR MESSAGE..</label>
+                    <textarea name="message" placeholder="HELLO SITHARA, CAN YOU HELP ME WITH ..." required></textarea>
+
+                    <button type="submit" class="btn btn-primary">SEND</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="contact-image">
+                    <div class="contact-placeholder">SL</div>
+                </div>
+                <div class="contact-details">
+                    <h3>CONTACT DETAILS</h3>
+                    <a href="https://github.com/SitharaLiyanage">SITHARA LIYANAGE</a>
+                    <a href="tel:+94785676844">+94785676844</a>
+                    <a href="mailto:DEV.SITHARALIYANAGE@GMAIL.COM">DEV.SITHARALIYANAGE@GMAIL.COM</a>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 
+<footer>
+    <div class="footer-content">
+        <div class="footer-time">
+            <span>LOCAL TIME</span><br />
+            <span id="current-time">16:49 GMT +5.30</span>
+        </div>
+        <div class="footer-copyright">
+            <span>COPYRIGHTS</span><br />
+            &copy; 2025 BY SITHARA LIYANAGE | ALL RIGHTS RESERVED
+        </div>
+        <div class="footer-socials">
+            <a href="#"><span>FB</span></a>
+            <a href="#"><span>IG</span></a>
+            <a href="#"><span>LI</span></a>
+            <a href="#"><span>EM</span></a>
+            <a href="#"><span>GH</span></a>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/index.js"></script>
 </body>
 </html>
