@@ -258,7 +258,13 @@ nav a.active::after {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: linear-gradient(45deg, #a855f7, #3b82f6);
+    background-image: url("../assets/img/aboutmepic.jpg");
+    background-size: cover;         /* Ensures the image covers the entire div */
+    background-position: center;    /* Centers the image within the div */
+    background-repeat: no-repeat;   /* Prevents repeating the image */
+
+
+    /*background: linear-gradient(45deg, #a855f7, #3b82f6);*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -312,7 +318,12 @@ nav a.active::after {
 .logo-placeholder {
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #a855f7, #3b82f6);
+    /*background: linear-gradient(45deg, #a855f7, #3b82f6);*/
+    background-image: url("../assets/img/edulogo/acbt-logo-696x696-1.jpg");
+    background-size: cover;         /* Ensures the image covers the entire div */
+    background-position: center;    /* Centers the image within the div */
+    background-repeat: no-repeat;
+
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -322,6 +333,42 @@ nav a.active::after {
     transition: transform 0.3s ease;
 }
 
+.ijse-placeholder{
+    width: 80px;
+    height: 80px;
+/*// background: linear-gradient(45deg, #a855f7, #3b82f6);*/
+    background-image: url("../assets/img/edulogo/ijselogo].png");
+    background-size: cover;         /* Ensures the image covers the entire div */
+    background-position: center;    /* Centers the image within the div */
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    transition: transform 0.3s ease;
+
+}
+
+.dcc-placeholder{
+    width: 80px;
+    height: 80px;
+    /*// background: linear-gradient(45deg, #a855f7, #3b82f6);*/
+    background-image: url("../assets/img/edulogo/dcclogo.jpg");
+    background-size: cover;         /* Ensures the image covers the entire div */
+    background-position: center;    /* Centers the image within the div */
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    transition: transform 0.3s ease;
+}
 .logo-placeholder:hover {
     transform: scale(1.1);
 }
@@ -686,7 +733,12 @@ nav a.active::after {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: linear-gradient(45deg, #a855f7, #3b82f6);
+    /*background: linear-gradient(45deg, #a855f7, #3b82f6);*/
+    background-image: url("../assets/img/contactpicc.jpg");
+    background-size: cover;         /* Ensures the image covers the entire div */
+    background-position: center;    /* Centers the image within the div */
+    background-repeat: no-repeat;   /* Prevents repeating the image */
+
     display: flex;
     align-items: center;
     justify-content: center;
